@@ -1,5 +1,4 @@
 import os
-import streamlit as st
 from PIL import Image
 import torch #operated by facebook with a lot of library
 import torch.nn as nn
