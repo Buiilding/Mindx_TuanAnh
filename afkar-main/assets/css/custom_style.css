@@ -1,0 +1,22 @@
+.classification-form {
+    max-width: 700PX;
+    margin: 0 auto;
+}
+
+#result-container {
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.result {
+    width : 20%;
+    margin-top: 20px ;
+}
+
+.result > img {
+    width : 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
