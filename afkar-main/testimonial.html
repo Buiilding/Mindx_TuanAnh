@@ -440,7 +440,7 @@
 				myHeaders.append("Content-Type", "multipart/form-data");
 				myHeaders.append("Accept", "application/json");
 
-				fetch('http://127.0.0.1:8100/upload', {
+				fetch('https://proven-singularly-sturgeon.ngrok-free.app/upload', {
 					method: 'POST',
 					body: data
 				})
@@ -460,7 +460,7 @@
 							redirect: 'follow'
 						};
 
-						fetch("http://localhost:8100/classify", requestOptions)
+						fetch("https://proven-singularly-sturgeon.ngrok-free.app/classify", requestOptions)
 							.then(response => response.text())
 							.then(result => {
 								console.log(result)
