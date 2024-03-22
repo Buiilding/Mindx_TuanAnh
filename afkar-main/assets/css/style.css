@@ -5496,7 +5496,7 @@ button {
   position: absolute;
   transform: translateY(60px);
   transition: 0.6s cubic-bezier(0.25, 1, 0.5, 1);
-  box-shadow: 8px 8px 50px 1px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 8px 8px 50px 1px rgba(0, 0, 0, 0.1); */
 }
 
 .agency-default-carousel .item .child-image.child-image-1 {
