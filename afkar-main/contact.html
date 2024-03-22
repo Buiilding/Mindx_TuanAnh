@@ -158,7 +158,7 @@
 						<div class="menu-list ul-li-block">
 							<h3 class="list-title">EXTRA PAGES</h3>
 							<ul class="clearfix">
-								<li><a href="team.html">About me</a></li>
+								<li><a href="https://peterbuics.wixstudio.io/peterbui">About me</a></li>
 
 								<li><a href="testimonial.html">Classification</a></li>
 
@@ -224,7 +224,7 @@
 					<li>
 						<a href="#pages-submenu" data-toggle="collapse" aria-expanded="false">PAGES</a>
 						<ul class="submenu collapse" id="pages-submenu" data-parent="#menu-list">
-							<li><a href="team.html">About me</a></li>
+							<li><a href="https://peterbuics.wixstudio.io/peterbui">About me</a></li>
 
 							<li><a href="testimonial.html">Classification</a></li>
 							<li><a href="404.html">404 Error</a></li>
@@ -330,7 +330,8 @@
 					<div class="col-lg-7 col-md-8 col-sm-9" data-aos="fade-up" data-aos-delay="100">
 						<div class="section-title size-increase">
 							<h2 class="title-text mb-0">
-								After coming into contact with a religious man I always feel I must wash my hands.
+								Everyone has the responsibility to bridge the language gap between individuals to create
+								a civilized society
 							</h2>
 						</div>
 					</div>
@@ -344,8 +345,7 @@
 							</span>
 							<h3 class="item-title">Head Quarter</h3>
 							<p class="mb-0">
-								Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses
-								differently than mine.
+
 							</p>
 						</div>
 					</div>
@@ -357,8 +357,7 @@
 							</span>
 							<h3 class="item-title">Phone Numbers</h3>
 							<p class="mb-0">
-								Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses
-								differently than mine.
+
 							</p>
 						</div>
 					</div>
@@ -370,8 +369,7 @@
 							</span>
 							<h3 class="item-title">Emails & Support</h3>
 							<p class="mb-0">
-								Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses
-								differently than mine.
+
 							</p>
 						</div>
 					</div>
@@ -390,9 +388,28 @@
 					<div id="googleMaps"></div>
 				</div> -->
 
-			<div id="mapBox" data-lat="40.701083" data-lon="-74.1522848" data-zoom="10"
-				data-info="PO Box CT16122 Collins Street West, Victoria 8007, Australia." data-mlat="40.701083"
-				data-mlon="-74.1522848">
+			<div class="mapouter">
+				<div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas"
+						src="https://maps.google.com/maps?q=01%20le%20duc%20tho&t=&z=13&ie=UTF8&iwloc=&output=embed"
+						frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+						href="https://123movies-i.net">123movies</a><br>
+					<style>
+						.mapouter {
+							position: relative;
+							text-align: right;
+							height: 500px;
+							width: 100%;
+						}
+					</style><a href="https://www.embedgooglemap.net">embed google maps</a>
+					<style>
+						.gmap_canvas {
+							overflow: hidden;
+							background: none !important;
+							height: 500px;
+							width: 100%;
+						}
+					</style>
+				</div>
 			</div>
 		</div>
 		<!-- map-section - end
@@ -407,7 +424,7 @@
 				<div class="row justify-content-center mb-60">
 					<div class="col-lg-6 col-md-7 col-sm-9" data-aos="fade-up" data-aos-delay="100">
 						<div class="section-title text-center size-increase">
-							<h2 class="title-text mb-0">Let’s create creativity projects together</h2>
+							<h2 class="title-text mb-0">Let’s create creative projects together</h2>
 						</div>
 					</div>
 				</div>
@@ -439,10 +456,20 @@
 						</div>
 					</div>
 					<div class="text-center" data-aos="fade-up" data-aos-delay="500">
-						<button type="submit" class="btn" value="submit">Thank You</button>
+						<button id="submit" type="button" class="btn" value="submit">Thank You</button>
+						<svg style="color: rgb(0, 142, 52); display: none; margin-left: 10px" width="32" height="32"
+							viewBox="0 0 24 24">
+							<path fill="currentColor"
+								d="m10.6 13.8l-2.15-2.15q-.275-.275-.7-.275t-.7.275q-.275.275-.275.7t.275.7L9.9 15.9q.3.3.7.3t.7-.3l5.65-5.65q.275-.275.275-.7t-.275-.7q-.275-.275-.7-.275t-.7.275zM12 22q-2.075 0-3.9-.788t-3.175-2.137q-1.35-1.35-2.137-3.175T2 12q0-2.075.788-3.9t2.137-3.175q1.35-1.35 3.175-2.137T12 2q2.075 0 3.9.788t3.175 2.137q1.35 1.35 2.138 3.175T22 12q0 2.075-.788 3.9t-2.137 3.175q-1.35 1.35-3.175 2.138T12 22" />
+						</svg>
 					</div>
 				</form>
-
+				<script>
+					const submitBtn = document.getElementById("submit");
+					submitBtn.addEventListener("click", () => {
+						submitBtn.nextElementSibling.style.display = "";
+					}) 
+				</script>
 			</div>
 		</section>
 		<!-- contact-section - end
